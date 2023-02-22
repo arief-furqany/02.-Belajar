@@ -1,0 +1,91 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Bonus_karyawan",
+            "request": "launch",
+            "mainClass": "Bonus_karyawan",
+            "projectName": "Belajar_b8b2682f"
+        },
+        {
+            "type": "java",
+            "name": "Launch belajar",
+            "request": "launch",
+            "mainClass": "belajar",
+            "projectName": "Belajar_b8b2682f"
+        },
+        {
+            "type": "java",
+            "name": "Launch belajar",
+            "request": "launch",
+            "mainClass": "Operator.belajar",
+            "projectName": "Belajar_b8b2682f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Belajar_b8b2682f"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorAritmatika",
+            "request": "launch",
+            "mainClass": "OperatorAritmatika",
+            "projectName": "Belajar_b8b2682f"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorLogika",
+            "request": "launch",
+            "mainClass": "OperatorLogika",
+            "projectName": "Belajar_b8b2682f"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorPembanding",
+            "request": "launch",
+            "mainClass": "OperatorPembanding",
+            "projectName": "Belajar_b8b2682f"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorPenugasan",
+            "request": "launch",
+            "mainClass": "OperatorPenugasan",
+            "projectName": "Belajar_b8b2682f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pengulangan",
+            "request": "launch",
+            "mainClass": "Pengulangan",
+            "projectName": "Belajar_b8b2682f"
+        },
+        {
+            "type": "java",
+            "name": "Launch TipeData",
+            "request": "launch",
+            "mainClass": "TipeData",
+            "projectName": "Belajar_b8b2682f"
+        },
+        {
+            "type": "java",
+            "name": "Launch loop",
+            "request": "launch",
+            "mainClass": "loop",
+            "projectName": "Belajar_b8b2682f"
+        }
+    ]
+}
