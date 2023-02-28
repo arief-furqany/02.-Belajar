@@ -1,4 +1,4 @@
-public class loop {
+public class loop_for {
 
 public static void main(String[] args) {
     System.out.println("Ini adalah looping");

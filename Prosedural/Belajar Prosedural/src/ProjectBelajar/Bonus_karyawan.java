@@ -1,3 +1,5 @@
+package projectBelajar;
+
 import java.util.Scanner;
 
 public class Bonus_karyawan{
@@ -20,6 +22,8 @@ public static void main(String[] args) {
     System.out.println("Berapakah Jumlah gaji anda saat ini? ");
     Jumlah_gaji = scan.nextInt();
 
+    //untuk menutup inputStream dari Scanner
+    scan.close();
 
     if (Jumlah_lama_kerja < 3){
         System.out.println ("Anda Belum bisa mendapatkan bonus");

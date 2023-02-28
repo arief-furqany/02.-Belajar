@@ -1,4 +1,4 @@
-package belajar.input.java;
+
 import java.util.Scanner;
 
 public class BelajarInputJava {

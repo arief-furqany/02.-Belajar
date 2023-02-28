@@ -1,5 +1,6 @@
 public class belajar_variable{
 
+
     public static void main(String[] args) {
 
         //String adalah untuk tipe data huruf, kalimat
@@ -15,10 +16,10 @@ public class belajar_variable{
         Double a = 70.8;
 
         //Float adalah tipe data yang menampug nilai desimal dengan luas tampunan lebih banyak daripada Double
-        Float b = 3.7;
+        Float b = 3.7f;
 
         //Char adalah tipe data yang hanya bisa menampung data huruf, dan hanya satu huruf
-        char c = ("a");
+        char c = 'd';
         
         System.out.println(nama + " " + nim);
         System.out.println( "ini adalah tipe data boolean yang bernilai: " + hujan );
