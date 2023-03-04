@@ -1,3 +1,10 @@
 {
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "superBG.opacity": 52,
+    "superBG.images": [],
+    "superBG.emulatedWidth": 25,
+    "superBG.disable": false,
+    "superBG.activeImage": 2,
+    "glassit.alpha": 70,
+    "glassit.force_sway": false
 }

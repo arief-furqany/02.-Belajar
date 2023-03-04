@@ -3,7 +3,7 @@ public class OperatorAritmatika{
     public static void main(String[] args) {
         
         //Java Aritmatika
-        // Adalah penugasan pada java, seperti penambahan, pembagian, modulus dll
+        // Adalah penugasan pada java, seperti penambahan, pembagian, modulus dllP
 
         //Variable
       int a = 10;

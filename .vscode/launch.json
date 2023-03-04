@@ -6,6 +6,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "loop_for",
+            "request": "launch",
+            "mainClass": "loop_for"
+        },
+        {
+            "type": "java",
             "name": "Launch Bonus_karyawan",
             "request": "launch",
             "mainClass": "Bonus_karyawan",
