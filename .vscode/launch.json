@@ -6,6 +6,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "array",
+            "request": "launch",
+            "mainClass": "array"
+        },
+        {
+            "type": "java",
             "name": "loop_for",
             "request": "launch",
             "mainClass": "loop_for"
