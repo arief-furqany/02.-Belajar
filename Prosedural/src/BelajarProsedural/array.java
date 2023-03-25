@@ -1,3 +1,5 @@
+package BelajarProsedural;
+
 public class array {
     
     public static void main(String[] args) {
@@ -29,7 +31,7 @@ public class array {
         String meme[] = {"masbro", "acumalaka", "nigger"};
 
         System.out.println("cara pertama");
-        String[] niga = new string[10];
+        String[] niga = new String[10];
         
         //fungsi length digunakan untuk mengetahui jumlah isi dari array
         //length biasa digunakan pada perulangan

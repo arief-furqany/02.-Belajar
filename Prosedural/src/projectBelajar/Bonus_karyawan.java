@@ -13,8 +13,10 @@ public static void main(String[] args) {
 
     Scanner scan = new Scanner(System.in);
     int Jumlah_lama_kerja, Jumlah_gaji; 
+    String nama_karyawan;
 
     System.out.println("Masukkan nama karyawan :");
+    nama_karyawan = scan.nextLine();
         
     System.out.println("Jumlah tahun karyawan bekerja :");
     Jumlah_lama_kerja = scan.nextInt();

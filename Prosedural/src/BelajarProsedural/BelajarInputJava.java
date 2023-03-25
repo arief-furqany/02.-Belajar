@@ -1,3 +1,4 @@
+package BelajarProsedural;
 
 import java.util.Scanner;
 

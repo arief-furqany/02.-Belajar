@@ -1,4 +1,4 @@
-
+package BelajarProsedural;
 public class TipeData {
 
     public static void main(String[] args) {
@@ -16,7 +16,7 @@ public class TipeData {
         System.out.println(" ");
 
         ///Tipe data char
-        Char tipeChar = ('a');
+        Character tipeChar = ('a');
         System.out.println(tipeChar);
         System.out.println("ini adalah tipe data Char");
 
@@ -52,11 +52,16 @@ public class TipeData {
         System.out.println(tipeLong);
         System.out.println("ini adalah tipe data long");
 
+
+        //pemisah
+        System.out.println(" ");
+
         //Tipe data Boolean
         Boolean TipeBoolean = true;
 
         //pemanfaatan boolean dalam if statement
         int a = 2;
+        System.out.println("if (a == 5) ");
 
         if (a == 5) {
             System.out.println("adalah benar");

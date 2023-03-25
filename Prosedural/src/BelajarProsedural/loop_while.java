@@ -1,3 +1,5 @@
+package BelajarProsedural;
+
 public class loop_while {
 
     public static void main(String[] args) {

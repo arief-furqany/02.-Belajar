@@ -1,3 +1,5 @@
+package BelajarProsedural;
+
 public class OperatorLogika{
 
     public static void main(String[] args) {

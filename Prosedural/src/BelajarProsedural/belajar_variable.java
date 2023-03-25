@@ -1,3 +1,5 @@
+package BelajarProsedural;
+
 public class belajar_variable {
 
     public static void main(String[] args) {

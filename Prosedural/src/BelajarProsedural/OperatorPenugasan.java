@@ -1,3 +1,5 @@
+package BelajarProsedural;
+
 import java.util.Scanner;
 
 public class OperatorPenugasan{

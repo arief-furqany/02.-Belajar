@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "belajar_variable",
+            "request": "launch",
+            "mainClass": "BelajarProsedural.belajar_variable",
+            "projectName": "02. Belajar_8ac624c7"
+        },
+        {
+            "type": "java",
+            "name": "TipeData",
+            "request": "launch",
+            "mainClass": "TipeData",
+            "projectName": "02. Belajar_8ac624c7"
+        },
+        {
+            "type": "java",
+            "name": "Bonus_karyawan",
+            "request": "launch",
+            "mainClass": "projectBelajar.Bonus_karyawan",
+            "projectName": "02. Belajar_8ac624c7"
+        },
+        {
+            "type": "java",
             "name": "array",
             "request": "launch",
             "mainClass": "array"
