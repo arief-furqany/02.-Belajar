@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "OperatorLogika",
+            "request": "launch",
+            "mainClass": "BelajarProsedural.OperatorLogika",
+            "projectName": "02. Belajar_8ac624c7"
+        },
+        {
+            "type": "java",
             "name": "belajar_variable",
             "request": "launch",
             "mainClass": "BelajarProsedural.belajar_variable",
