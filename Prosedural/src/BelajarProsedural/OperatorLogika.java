@@ -7,7 +7,7 @@ public class OperatorLogika{
         System.out.println("Operator Logika");
         // System.out.println("adalah operator untuk membuat program logika dengan menggabungkan premis");
 
-        int a = 10;
+      int a = 10;
       int b = 20;
       int c = 30;
 
