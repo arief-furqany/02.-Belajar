@@ -1,4 +1,4 @@
-package projectBelajar;
+,package projectBelajar;
 
 import java.util.Scanner;
 
