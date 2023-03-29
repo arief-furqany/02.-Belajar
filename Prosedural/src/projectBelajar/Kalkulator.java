@@ -11,7 +11,7 @@ public class Kalkulator {
         int a = inputAngka.nextInt();
         
         System.out.println("masukkan operator : ");
-        char operator = inputAngka.nextInt();
+        int operator = inputAngka.nextInt();
 
         System.out.println("masukkan nilai b : ");
         int b = inputAngka.nextInt();

@@ -27,10 +27,9 @@ public class OperatorLogika{
 
       System.out.println(!x); // false
       System.out.println(!y); // true
-    
-    }
+      
+   }
 }
-```
 
 //This program defines three variables `a`, `b`, and `c` and uses both the logical `&&` and `||` operators in `if` statements to check their values. It also demonstrates the use of the logical `!` operator to negate boolean values.
    
