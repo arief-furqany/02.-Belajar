@@ -5,7 +5,8 @@ public class array_latihan {
     public static void main(String[] args) {
         System.out.println("Latihan array according petanicode");
 
-        //contoh looping array
+
+        //contoh looping array dengan for loop
         String[] loop_array = {"arief", "arip", "kanoy" };
 
     // berikut adalah kode untuk menggunakan sebuah array secara terus menerus

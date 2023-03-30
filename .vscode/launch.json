@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Kalkulator",
+            "request": "launch",
+            "mainClass": "projectBelajar.Kalkulator",
+            "projectName": "02. Belajar_8ac624c7"
+        },
+        {
+            "type": "java",
             "name": "arrray_input",
             "request": "launch",
             "mainClass": "BelajarProsedural.arrray_input",

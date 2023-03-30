@@ -22,7 +22,6 @@ public class array {
 
     System.out.println("cara kedua");
     String buah[];
-    System.out.println(buah);
 
     System.out.println("cara ketiga");
     String[] nomor_urut = new String [5];
