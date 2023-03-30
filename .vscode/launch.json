@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "arrray_input",
+            "request": "launch",
+            "mainClass": "BelajarProsedural.arrray_input",
+            "projectName": "02. Belajar_8ac624c7"
+        },
+        {
+            "type": "java",
+            "name": "array_latihan",
+            "request": "launch",
+            "mainClass": "BelajarProsedural.array_latihan",
+            "projectName": "02. Belajar_8ac624c7"
+        },
+        {
+            "type": "java",
             "name": "OperatorLogika",
             "request": "launch",
             "mainClass": "BelajarProsedural.OperatorLogika",
