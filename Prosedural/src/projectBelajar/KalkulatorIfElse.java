@@ -1,7 +1,7 @@
 package projectBelajar;
 import java.util.Scanner;
 
-public class Kalkulator {
+public class KalkulatorIfElse {
     public static void main(String[] args) {
         System.out.println("Project Belajar Kalkulator");
 
@@ -14,33 +14,37 @@ public class Kalkulator {
         float a = inputAngka.nextInt();
         
         System.out.println("masukkan operator : ");
-        String operator = inputAngka.nextLine();
+        char operator = inputAngka.next().charAt(0);
 
         System.out.println("masukkan nilai b : ");
         float b = inputAngka.nextInt();
 
+        //memberitahukan user operator yang mereka inputkan
+        System.out.println(" adalah hasil operator : " + a + operator + b );
+
         // if statement untuk  pemilahan operasi
-        if (operator == "+") {
+        if (operator == '+') {
             //penjumlahan
             hasil = a+b;
             System.out.println("hasil = " + hasil);
-        } else  if (operator == "-"){
+        } else  if (operator == '-'){
             //pengurangan
             hasil = a-b;
             System.out.println("hasil = " + hasil);
-        } else if (operator == "*"){
+        } else if (operator == '*'){
             // perkalian
             hasil = a*b;
             System.out.println("hasil = " + hasil);
-        } else if (operator == "/"){
+        }  else if (operator == '/'){
             // pembagian
-            hasil = a/b;
-            System.out.println("hasil = " + hasil);
-        } else {
+            if (b == 0){
+                System.out.println("unlimited coyy");
+                }else { 
+                    hasil = a/b;
+                    System.out.println("hasil = " + hasil);
+                }
+            } else {
         }
-
-
-        System.out.println("hasil operator : " + a + operator + b );
 
 
     }
