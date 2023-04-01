@@ -9,7 +9,7 @@ public class loop_while {
         while (Student < 10){ //batasan pengulangan adalah 10
             System.out.println("student"+Student);
         Student++; // increment(peningkatan)
-        }   
+        }    
     }
 }
 

@@ -23,6 +23,7 @@ public class CalculatorSwitchCase {
 
       // fungsi darii break adalah untuk memisahkan setiap
       // tanpa perlu mengintip case yang lain ketika hasilnya true
+      
       switch (operator) {
          // penambahan
          case "+":
@@ -43,7 +44,8 @@ public class CalculatorSwitchCase {
          default:
             System.out.println();
             break;
-      }
 
+         }
+
+      }
    }
-}
