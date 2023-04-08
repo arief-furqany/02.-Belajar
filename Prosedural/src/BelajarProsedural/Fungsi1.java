@@ -1,66 +1,51 @@
 package BelajarProsedural;
-import java.util.Scanner;
 
 public class Fungsi1 {
 
-     //pembuatan fungsi 
+    public static void main (String[] args){
 
-// sebaiknya digunakan diluar main scope agar berfungsi secara global
+        //nilai yang akan digunakan oleh fungsi.
+
+        String nama = nama("arief ","furqany");
+        String nama2 = nama("arie", "kanoy");
+
+        int hasil = aritmatika(6,8,9);
+        int hasil2 = aritmatika(12, 8, 16);
+
+
+        // pemanggilan fungsi
+        System.out.println(nama);
+        System.out.println(nama2);
+        System.out.println(hasil);
+        System.out.println(hasil2);
+    }
+
+
+//pembuatan fungsi 
+
+//fungsi sebaiknya digunakan diluar main scope agar berfungsi secara global
 //tentukan tipe data kembalian -> nama fungsi -> tipe data parameter
 
     //contoh kode untuk mengembalikan nilai integer.
     public static int aritmatika(int a, int b, int c){
 
-        //int tambah = nama fungsi yang mengembalikan nilai berupa integer
-        // (int a, int b) = parameter (nilai yang diterima fungsi sebagai masukan)
+    //int "nama_fungsi" = tipe data nama fungsi yang mengembalikan nilai berupa integer
+    // (int a, int b) = parameter (nilai yang diterima fungsi sebagai masukan/variable tersedia)
     
         int hasil = a + b * c;
 
+        // return berguna untuk mencetak nilai dari program dalam fungsi ketika si fungsi dipaggil
         return hasil;
     }
     
 
-    //contoh kode dengan nilai kembalian String
+//contoh kode dengan nilai kembalian String
     public static String nama(String nm_depan, String nm_belakang){
 
         String nama_lengkap = nm_depan + nm_belakang; 
 
+        // return berguna untuk mencetak nilai dari program dalam fungsi ketika si fungsi dipaggil
         return nama_lengkap;
     }
-
- // ("______________________________________________________________")
-
-    //program utama
-    static Scanner input = new Scanner(System.in);
-    public static void main (String[] args){
-
-    int a, b, c;
-    String nm_depan, nm_belakang;
-
-        //nilai yang akan digunakan oleh fungsi.
-        a = 23; 
-        b = 15;
-        c = 45;
-
-        nm_depan = ("arief");
-        nm_belakang = ("furqany");
-
-        String nama = nama_lengkap(nm_depan,nm_belakang);
-        int hasil = aritmatika(a, b, c);
-
-        System.out.println(nama);
-        System.out.println(hasil);
-    }
-
-
-    //belum dipahami
-    private static String nama_lengkap(String nm_depan, String nm_belakang) {
-        return nama(nm_depan, nm_belakang);
-    }
-
-   
-    
-    
-
 
 }
