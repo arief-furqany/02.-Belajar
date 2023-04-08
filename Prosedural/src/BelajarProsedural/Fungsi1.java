@@ -6,6 +6,7 @@ public class Fungsi1 {
 
         //nilai yang akan digunakan oleh fungsi.
 
+                     //nama() adalah fungsi yang dipanggil
         String nama = nama("arief ","furqany");
         String nama2 = nama("arie", "kanoy");
 
