@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Fungsi",
+            "request": "launch",
+            "mainClass": "BelajarProsedural.Fungsi",
+            "projectName": "02. Belajar_8ac624c7"
+        },
+        {
+            "type": "java",
             "name": "CalculatorSwitchCase",
             "request": "launch",
             "mainClass": "projectBelajar.CalculatorSwitchCase",
