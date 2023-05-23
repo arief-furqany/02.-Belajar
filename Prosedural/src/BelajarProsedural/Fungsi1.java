@@ -30,7 +30,7 @@ public class Fungsi1 {
     //contoh kode untuk mengembalikan nilai integer.
     public static int aritmatika(int a, int b, int c){
 
-    //int "nama_fungsi" = tipe data nama fungsi yang mengembalikan nilai berupa integer
+    //int "nama_fungsi" = tipe data nama fungsi yang mengembalikan nilaiN berupa integer
     // (int a, int b) = parameter (nilai yang diterima fungsi sebagai masukan/variable tersedia)
     
         int hasil = a + b * c;

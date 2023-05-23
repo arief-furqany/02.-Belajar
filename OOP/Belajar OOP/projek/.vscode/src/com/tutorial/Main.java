@@ -12,6 +12,7 @@ public class Main {
        private String nama;
        private String NIM;
        private String jurusan;
+       public String Alumni;
     
         //inner class bersifat public, jadi bisa di akses dari luar class
         public Mahasiswa(String nama, String nIM, String jurusan, String alumni) {
@@ -23,14 +24,6 @@ public class Main {
 
         public String getAlumni(){
             return Alumni;
-        }
-
-        public String getNama() {
-            return nama;
-        }
-
-        public String getNIM() {
-            return NIM;
         }
 
         public String getJurusan() {

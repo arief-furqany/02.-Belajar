@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "testArray",
+            "request": "launch",
+            "mainClass": "BelajarProsedural.testArray",
+            "projectName": "02. Belajar_8ac624c7"
+        },
+        {
+            "type": "java",
             "name": "Fungsi",
             "request": "launch",
             "mainClass": "BelajarProsedural.Fungsi",
