@@ -35,7 +35,7 @@ public class OperatorAritmatika{
          System.out.println("ini adalah perkalian");
 
          //modulus (sisa bagi)
-         int modulus = a % b % c %d;
+         int modulus = a % b;
          System.out.println(modulus);
          System.out.println("ini adalah modulus");
 

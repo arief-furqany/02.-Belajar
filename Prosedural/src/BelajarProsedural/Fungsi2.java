@@ -1,8 +1,6 @@
 package BelajarProsedural;
 import java.util.Scanner;
 
-
-
 public class Fungsi2 {
 
     static Scanner InputData = new Scanner(System.in);
@@ -16,11 +14,11 @@ public class Fungsi2 {
             for (j = 0; j < lebar(4); j++){
                 System.out.println("*");
             }
-                System.out.println("\n"); 
+            System.out.println(""); 
         } 
+        
     }
-
-
+//Fungsi untuk mengambil input dari user berupa integer dan mengembalikan nilai
     public static int lebar(int lebar){
 
         return lebar;

@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "perulanganFor",
+            "request": "launch",
+            "mainClass": "BelajarProsedural.perulanganFor",
+            "projectName": "02. Belajar_8ac624c7"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "BelajarProsedural.App",
+            "projectName": "02. Belajar_8ac624c7"
+        },
+        {
+            "type": "java",
+            "name": "Fungsi2",
+            "request": "launch",
+            "mainClass": "BelajarProsedural.Fungsi2",
+            "projectName": "02. Belajar_8ac624c7"
+        },
+        {
+            "type": "java",
             "name": "testArray",
             "request": "launch",
             "mainClass": "BelajarProsedural.testArray",

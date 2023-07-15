@@ -2,7 +2,6 @@ package BelajarProsedural;
 
 public class array {
     
-    
     public static void main(String[] args) {
         System.out.println("Belajar Array");
 
@@ -43,20 +42,6 @@ public class array {
         
         //fungsi length digunakan untuk mengetahui jumlah isi dari array
         //length biasa digunakan pada perulangan
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
 
     }
 
